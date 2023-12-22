@@ -1,3 +1,5 @@
 Jupyter notebook || Google colaboratory
+touch
+torchvision
 ultralytics
 yolov8
