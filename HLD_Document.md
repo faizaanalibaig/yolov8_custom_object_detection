@@ -19,8 +19,7 @@ The notebook 'AccessorySpotter_.ipynb' demonstrates the entire workflow using Ju
 
 Model Training:
 
-Training involves importing the YOLO model from Ultralytics, initializing the medium-sized model, and initiating the training process. 
-Post-training, the best and worst models are saved within the weights folder and the path will be like this --> 'run/detect/train/weights'. Model validation employs the best-saved model, which is used for predicting unseen images.
+The training process involves initializing the YOLO model from Ultralytics, specifically selecting the medium-sized variant. After initializing the model, training is initiated using the custom dataset. The notebook code provides clear steps for installing Ultralytics and importing the YOLO model. The training routine is customizable, allowing users to experiment with different parameters and augmentations for optimal performance. The resulting models, both the best and worst, are saved within the 'run/detect/train/weights' directory. To ensure model reliability, validation is conducted using the best-saved model, providing insights into its performance on unseen data. This documentation outlines a user-friendly approach to model training, enabling reproducibility and further experimentation.
 
 GPU Acceleration:
 
