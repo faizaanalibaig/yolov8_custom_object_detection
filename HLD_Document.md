@@ -21,14 +21,13 @@ Post-training, the best and worst models are saved within the weights folder and
 
 GPU Acceleration:
 The project supports GPU acceleration for faster computations during training and validation. 
-Users with compatible GPUs should ensure upgraded GPU drivers, the correct version of CUDA, CuDNN, and TensorFlow. Reference the TensorFlow website for version compatibility.
+Users with compatible GPUs should ensure upgraded GPU drivers, and users should have the correct version of CUDA, CuDNN, and TensorFlow. Reference the TensorFlow website for version compatibility. [https://www.tensorflow.org/install/source_windows#gpu]. This like is for Windows users, MacOS and Linux users can change the parameters and check their required versions on this website itself.
 
 Data Augmentation:
 Data augmentation enhances model robustness. Default parameters are suitable for training, but users can experiment with additional augmentation techniques for improved results.
 
 YOLO v8 Modes and Tasks:
-The YOLO v8 model supports three modes: 'train,' 'val,' and 'predict,' each serving different tasks. For this project, the 'detect' task within the 'predict' mode is utilized for 
-object detection.
+The YOLO v8 model supports three modes: 'train,' 'val,' and 'predict,' and three tasks: 'detect', 'segment', and 'classify'. For this project, the 'detect' task is used for object detection.
 
 Conclusion:
 The provided documentation serves as a guide for understanding and replicating the Fashion Item Detection project. 
