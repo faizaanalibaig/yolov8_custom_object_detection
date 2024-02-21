@@ -1,6 +1,6 @@
 ## High-Level Design (HLD) Document
 <br>
-**Project Overview:**
+*Project Overview:*
 
 The Fashion Item Detection project employs the YOLO v8m.pt model, specifically utilizing the medium-sized model variant. 
 The YOLO v8 architecture offers versions ranging from nano to extra-large, with the medium model chosen for this project. 
