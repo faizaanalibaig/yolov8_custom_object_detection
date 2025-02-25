@@ -3,6 +3,3 @@ touch
 torchvision
 ultralytics
 yolov8
-2823 country count
-isitpull
-manali under 80K
